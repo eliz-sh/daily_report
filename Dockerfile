@@ -1,4 +1,4 @@
- FROM python:3.3.3
+ FROM python:3
 
  RUN pip3 install --upgrade pip
  RUN pip3 install numpy
