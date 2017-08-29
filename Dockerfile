@@ -12,3 +12,4 @@
  RUN pip3 install openpyxl
  RUN pip3 install datetime
  RUN pip3 install py-postgresql
+ CMD ["python", "./daily_rep.py"]
