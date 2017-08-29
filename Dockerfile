@@ -1,4 +1,4 @@
- FROM python:3
+ FROM python:3.3.3
 
  RUN pip3 install --upgrade pip
  RUN pip3 install numpy
@@ -9,5 +9,5 @@
  RUN pip3 install openpyxl
  RUN pip3 install datetime
  RUN pip3 install py-postgresql
- CMD ["python3", "daily_rep.py"]
- CMD ["python", "./Insert_database.py"]
+ CMD ["python3"]
+ 
