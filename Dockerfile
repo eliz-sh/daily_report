@@ -1,7 +1,14 @@
  FROM python:3
- ENV PYTHONUNBUFFERED 1
+
  RUN mkdir rep
  WORKDIR rep
- ADD requirements.txt rep
- RUN pip3 install -r requirements.txt
- 
+
+ RUN pip3 install --upgrade pip
+ RUN pip3 install numpy
+ RUN pip3 install requests
+ RUN pip3 install pandas
+ RUN pip3 install xlrd
+ RUN pip3 install xlwt
+ RUN pip3 install openpyxl
+ RUN pip3 install datetime
+ RUN pip3 install py-postgresql
