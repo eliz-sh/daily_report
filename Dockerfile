@@ -1,8 +1,5 @@
  FROM python:3
 
- RUN mkdir rep
- WORKDIR rep
-
  RUN pip3 install --upgrade pip
  RUN pip3 install numpy
  RUN pip3 install requests
